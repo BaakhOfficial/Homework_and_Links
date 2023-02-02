@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T14:49:49.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" version="20.8.15" etag="Js8qjzY_4Mrbp2y9tI2j" type="github"><diagram name="Page-1" id="00fhF2i7xUbwXuEdj2fI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-02T15:32:21.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="2ddqE_5rO3Oep-zAEoRG" version="20.8.15" type="github">
+  <diagram name="Page-1" id="00fhF2i7xUbwXuEdj2fI">
+    <mxGraphModel dx="1181" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="980OsK9IZz-E473uADIN-1" value="&lt;b&gt;SHOWCASE&lt;br&gt;&lt;/b&gt;sale_id&lt;br&gt;sale_date&lt;br&gt;shipping_date&lt;br&gt;state&lt;br&gt;paid_state&lt;br&gt;full_sum&lt;br&gt;paid_state&lt;br&gt;to_pay&lt;br&gt;client_name&lt;br&gt;manager_name&lt;br&gt;source&lt;br&gt;shop_name&lt;br&gt;commentary&lt;br&gt;client_number" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="120" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="980OsK9IZz-E473uADIN-4" target="980OsK9IZz-E473uADIN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-4" value="&lt;b&gt;SALES&lt;/b&gt;&lt;br&gt;sale_id&lt;br&gt;shipping_date&lt;br&gt;products_js&lt;br&gt;sale_date&lt;br&gt;payments_js&lt;br&gt;client_id&lt;br&gt;manager_id&lt;br&gt;source_id&lt;br&gt;shop_id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="350" y="190" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="980OsK9IZz-E473uADIN-5" target="980OsK9IZz-E473uADIN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-5" value="&lt;b&gt;PRODUCTS&lt;/b&gt;&lt;br&gt;product_id&lt;br&gt;product_name&lt;br&gt;product_description&lt;br&gt;product_price" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="350" y="70" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="980OsK9IZz-E473uADIN-6" target="980OsK9IZz-E473uADIN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-6" value="&lt;b&gt;PAYMENTS&lt;/b&gt;&lt;br&gt;payment_id&lt;br&gt;payment_date&lt;br&gt;payment_amount&lt;br&gt;manager_id" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="550" y="230" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="980OsK9IZz-E473uADIN-8" target="980OsK9IZz-E473uADIN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-8" value="&lt;b&gt;CLIENTS&lt;/b&gt;&lt;br&gt;client_id&lt;br&gt;client_name&lt;br&gt;client_number&lt;br&gt;manager_id" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="550" y="360" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="980OsK9IZz-E473uADIN-10" target="980OsK9IZz-E473uADIN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-10" value="&lt;b&gt;SHOPS&lt;/b&gt;&lt;br&gt;shop_id&lt;br&gt;shop_name&lt;br&gt;shop_adress" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="980OsK9IZz-E473uADIN-11" target="980OsK9IZz-E473uADIN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-11" value="&lt;b&gt;SOURCES&lt;/b&gt;&lt;br&gt;source_id&lt;br&gt;source_name" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="980OsK9IZz-E473uADIN-12" target="980OsK9IZz-E473uADIN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="980OsK9IZz-E473uADIN-12" target="980OsK9IZz-E473uADIN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="980OsK9IZz-E473uADIN-12" target="980OsK9IZz-E473uADIN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-12" value="&lt;b&gt;MANAGERS&lt;br&gt;&lt;/b&gt;manager_id&lt;br&gt;manager_name&lt;br&gt;manager_number&lt;br&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="550" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-30" value="&lt;b data-darkreader-inline-border=&quot;&quot; style=&quot;border-color: var(--darkreader-border--border-color); --darkreader-inline-border:var(--darkreader-border--darkreader-border--border-color);&quot;&gt;Additional Info:&lt;/b&gt;&lt;br data-darkreader-inline-border=&quot;&quot; style=&quot;border-color: var(--darkreader-border--border-color); --darkreader-inline-border:var(--darkreader-border--darkreader-border--border-color);&quot;&gt;products_js = {product_id:product_price}&lt;br data-darkreader-inline-border=&quot;&quot; style=&quot;border-color: var(--darkreader-border--border-color); --darkreader-inline-border:var(--darkreader-border--darkreader-border--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;payments_js = {payment_id:payment_amount}&lt;br&gt;paid states - статус оплаты (полностью, частично и.т.д.)&lt;br&gt;state - статус заказа (оформлен, отгружен, уточн. и.т.д.)&lt;br&gt;Вычисляемые в showcase строки не дублируются, старался придерживаться идеи реляционной базы данных&lt;br&gt;&lt;/span&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="700" width="385" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="980OsK9IZz-E473uADIN-31" target="980OsK9IZz-E473uADIN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-31" value="&lt;b&gt;PAID STATES&lt;/b&gt;&lt;br&gt;ps_id&lt;br&gt;state_name" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="980OsK9IZz-E473uADIN-34" target="980OsK9IZz-E473uADIN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="980OsK9IZz-E473uADIN-34" value="&lt;b&gt;STATES&lt;/b&gt;&lt;br&gt;state_id&lt;br&gt;state_name" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
